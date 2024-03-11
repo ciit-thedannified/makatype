@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: font1;
+            src: url(RobotoMono-Regular.ttf);
+        }
+        .footer{
+            /*
+              background-color for text visibility purposes only, remove once a uniform background color has been picked
+              adjust margin-top relative to the distance between the typing field
+            */
+            background-color: #222831;
+            height: 15vh;
+            bottom: 0px;
+            margin-top: 85vh;
+            color: white;
+            font-family: font1;
+        }
+        .bottom-icons{
+            padding-top: 1%;
+            padding-left: 2%;
+            user-select: none;
+        }
+        .center-icons{
+            padding-top: 1%;
+            line-height: 0.7;
+            user-select: none;
+        }
+        .text-highlight{
+            background-color: white;
+            color: #222831;
+            border: solid #222831 1px;
+            border-radius: .4vw;
+            padding-left:0.3vw;
+            padding-right: 0.3vw;
+        }
+    </style>
+</head>
+<body style="margin: 0px;">
+    <!--Footer Div-->
+    <div class="footer">
+        <!--Keyboard Shortcuts-->
+        <center><div class="center-icons"><span class="text-highlight">tab</span> + <span class="text-highlight">enter</span> - restart level<p><span class="text-highlight">esc</span> or <span class="text-highlight">ctrl</span> + <span class="text-highlight">shift</span> + p - command line</p></div></center>
+        <!--Links-->
+        <div class="bottom-icons"><a href="" target="_blank" style="text-decoration: none;color: white;"><i class="fa-solid fa-envelope"></i>&nbsp;Contact</a>&nbsp;&nbsp;<a href="" target="_blank" style="text-decoration: none;color: white;"><i class="fa-solid fa-code"></i>&nbsp;GitHub</a><span style="float:right;padding-right: 2%;">Developed by BSCSEMC</span></div>
+    </div>
+</body>
+</html>
