@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monkey Type Header</title>
+  <style>
+    @font-face {
+        font-family: roboto;
+        src: url(RobotoMono-Regular.ttf);
+    }
+
+    body, h1 {
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Header styles */
+    .header {
+      background-color: #222831 ;
+      color: #fff;
+      padding: 20px;
+      text-align: left;
+      position: relative; 
+      font-family: roboto;
+    }
+    
+    /* Logo styles */
+    .logo {
+      font-size: 15px;
+      font-weight: bold;
+      color: #EE4266;
+      font-family: roboto;
+
+    }
+    
+    /* Subtitle styles */
+    .subtitle {
+      font-size: 25px;
+      font-family: roboto;
+    }
+
+    /* Game Page*/
+    .fa-keyboard,
+    .fa-info,
+    .fa-gear,
+    .fa-bell,
+    .fa-user {
+      position: absolute;
+      font-size: 20px;
+      transition: all 0.3s ease-in-out;
+    }
+     /* eto yung icon na keyboard sa left side*/
+    .fa-keyboard {
+      color: #FF8E8F; 
+      margin-left: 165px;
+      margin-top: -24px;
+    }
+     /* eto yung icon na I sa left side*/
+    .fa-info {
+      color: #FDFFAB;   
+      margin-left: 207px;
+      margin-top: -25px;
+    }
+     /* eto yung icon na gear sa left side*/
+    .fa-gear {
+      color: #67C6E3;
+      margin-left: 235px;
+      margin-top: -23px;
+    }
+     /* eto yung icon na bell sa right side*/
+    .fa-bell {
+      color: #E178C5;
+      margin-left: calc(95% - 30px); 
+      margin-top: -23px;
+    }
+     
+    /* eto yung icon na profile sa right side*/
+    .fa-user { 
+      color: #FFBE98;
+      margin-left: calc(100% - 80px); 
+      margin-top: -23px;
+    }
+
+    /* Hover effect */
+    .fa-keyboard:hover,
+    .fa-info:hover,
+    .fa-gear:hover,
+    .fa-bell:hover,
+    .fa-user:hover {
+     /* font-size: 30px;  palitan niyo nalang if gusto niyo*/ 
+      transform: scale(1.4);
+
+    }
+
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">monkey see</div>
+    <div class="subtitle">monkeytype</div>
+    <a href="game_page.html"><i class="fa-solid fa-keyboard"></i></a>
+    <a href="info_page.html"><i class="fa-solid fa-info"></i></a>
+    <a href="settings_page.html"><i class="fa-solid fa-gear"></i></a>
+    <a href="notification_page.html"><i class="fa-solid fa-bell"></i></a>
+    <a href="user_page.html"><i class="fa-solid fa-user"></i></a>
+  </div>
+
+</body>
+</html>
