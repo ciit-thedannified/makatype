@@ -1,0 +1,26 @@
+{
+  "name": "makatype",
+  "version": "0.0.1",
+  "description": "Ang Makatype ay isang typing game na ginawa ng mga estudyante mula sa CIIT para sa kanilang panghuling kahingian sa FIL003-2 - Panitikan.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciit-thedannified/makatype.git"
+  },
+  "keywords": [
+    "makatype"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ciit-thedannified/makatype/issues"
+  },
+  "homepage": "https://github.com/ciit-thedannified/makatype#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1"
+  }
+}
