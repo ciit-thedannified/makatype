@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        /*Feel free to change the font file*/
+        @font-face {
+            font-family: font1;
+            src: url(./Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+        }
+
+        .testSettings {
+            background-color: #222831;
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-family: font1;
+        }
+
+        #TSul {
+            display: inline-flex;
+            list-style: none;
+            vertical-align: middle;
+            text-transform: none;
+            padding: 8px;
+            margin: 0;
+        }
+
+        li {
+            padding-left: 5px;
+            padding-right: 5px;
+            font-size: 12px;
+        }
+
+        .TSline {
+            opacity: 0.3;
+        }
+
+        .footer{
+            /*
+              background-color for text visibility purposes only, remove once a uniform background color has been picked
+              adjust margin-top relative to the distance between the typing field
+            */
+            background-color: #222831;
+            height: 18vh;
+            width: 100%;
+            padding-top: 5px;
+            position: fixed;
+            bottom: 0px;
+            color: white;
+            font-family: font1;
+        }
+        .bottom-icons{
+            padding-top: 1%;
+            padding-left: 2%;
+            user-select: none;
+        }
+        .center-icons{
+            padding-top: 1%;
+            line-height: 0.7;
+            user-select: none;
+        }
+        .text-highlight{
+            background-color: white;
+            color: #222831;
+            border: solid #222831 1px;
+            border-radius: .4vw;
+            padding-left:0.3vw;
+            padding-right: 0.3vw;
+        }
+    </style>
+</head>
+<body style="margin: 0px;">
+    <!--Test Settings-->
+    <center>
+    <div class="testSettings">
+        <ul id="TSul">
+            <li><div class="punctuation"><i class="fa-solid fa-at"></i> punctuation</div></li>
+            <li><div class="numbers"><i class="fa-solid fa-hashtag"></i> numbers</div></li>
+            <li class="TSline"> | </li>
+            <li><div class="time"><i class="fa-solid fa-clock"></i> time</div></li>
+            <li><div class="words"><i class="fa-solid fa-a"></i> words</div></li>
+            <li><div class="quote"><i class="fa-solid fa-quote-left"></i> quote</div></li>
+            <li><div class="custom"><i class="fa-solid fa-wrench"></i> custom</div></li>
+            <li class="TSline"> | </li>
+            <li><div class="15">15</div></li>
+            <li><div class="30">30</div></li>
+            <li><div class="60">60</div></li>
+            <li><div class="120">120</div></li>
+        </ul>
+    </div>
+    </center>
+
+    <!--Footer Div-->
+    <div class="footer">
+        <!--Keyboard Shortcuts-->
+        <center><div class="center-icons"><span class="text-highlight">tab</span> + <span class="text-highlight">enter</span> - restart level<p><span class="text-highlight">esc</span> or <span class="text-highlight">ctrl</span> + <span class="text-highlight">shift</span> + p - command line</p></div></center>
+        <!--Links-->
+        <div class="bottom-icons"><a href="" target="_blank" style="text-decoration: none;color: white;"><i class="fa-solid fa-envelope"></i>&nbsp;Contact</a>&nbsp;&nbsp;<a href="" target="_blank" style="text-decoration: none;color: white;"><i class="fa-solid fa-code"></i>&nbsp;GitHub</a><span style="float:right;padding-right: 2%;">Developed by BSCSEMC</span></div>
+    </div>
+</body>
+</html>
